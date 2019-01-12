@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonHello: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       buttonHello.layer.cornerRadius = buttonHello.bounds.width / 5
+        
+        buttonHello.clipsToBounds = true
     }
 
 
