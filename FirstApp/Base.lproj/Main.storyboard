@@ -35,6 +35,9 @@
                                     <constraint firstAttribute="height" constant="100" id="fBT-1w-Mhk"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="buttonimage"/>
+                                <connections>
+                                    <action selector="changeNameAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cd-fr-ezj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.33198333000694369" blue="0.55688388503527819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,7 +50,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="buttonHello" destination="lHr-8D-ohR" id="ufw-pT-g8J"/>
+                        <outlet property="buttonHello" destination="lHr-8D-ohR" id="O3S-Vc-dFO"/>
+                        <outlet property="nameLabel" destination="3M0-2Z-3Eh" id="wYu-Xz-GX4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
